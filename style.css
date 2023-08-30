@@ -156,7 +156,7 @@ html {
 
 .featured .featured_bottom .featured_bottom_top img {
     width: 130px;
-    height: 110px;
+    height: 75px;
     object-fit: contain;
     filter: grayscale(100%);
 }
@@ -173,7 +173,347 @@ html {
 
 .featured .featured_bottom .featured_bottom_bottom img {
     width: 130px;
-    height: 110px;
+    height: 36px;
     object-fit: contain;
     filter: grayscale(100%);
+}
+
+
+/* about me */
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 40px 200px;
+    text-align: center;
+    background-color: rgb(234, 239, 254);
+}
+
+.about_me>div {
+    margin-bottom: 20px;
+}
+
+.about_me h3 {
+    font-weight: 600;
+}
+
+.about_me>div>p {
+    margin: 0;
+}
+
+.about_me .aboutme_hero {
+    background-color: antiquewhite;
+    border-radius: 50%;
+    height: auto;
+    border: 15px solid white;
+}
+
+.about_me .aboutme_hero>div {
+    background-color: rgb(234, 239, 254);
+    border-radius: 50%;
+    border: 4px solid rgb(206, 214, 255);
+    width: 100%;
+    height: auto;
+}
+
+.about_me .social_media {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about_me .social_media>div {
+    padding: 7px;
+    margin-right: 20px;
+    width: 100%;
+    background-color: rgb(51, 95, 244);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* services */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 30px 60px;
+    background-color: rgb(234, 239, 254);
+}
+
+.services .services_top {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.services .services_top h1 {
+    font-weight: 600;
+}
+
+.services .services_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.services .services_center>div {
+    margin-right: 20px;
+}
+
+.services .services_center button {
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    background-color: #fff;
+    border-radius: 2rem;
+    margin-bottom: 10px;
+}
+
+.services .services_center button:hover {
+    background-color: rgb(51, 95, 244);
+    color: #fff;
+}
+
+.services .services_bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .services_bottom .community {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+    width: 100%;
+}
+
+.services .services_bottom .community .community_left {
+    padding-right: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.services .services_bottom .community .community_left>ul {
+    list-style: none;
+}
+
+.services .services_bottom .community .community_left>ul li::before {
+    content: "☑️";
+    background-color: rgb(234, 239, 254);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-right: 10px;
+    margin-left: -2em;
+}
+
+.services .services_bottom .community .community_left button {
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    background-color: rgb(51, 95, 244);
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 80px;
+}
+
+.services .services_bottom .community .community_right {
+    width: 45%;
+    height: auto;
+}
+
+.services .services_bottom .community .community_right .community_hero {
+    width: 100%;
+    padding: 20px 15px 0px 15px;
+    background-image: linear-gradient(to bottom right, rgb(91, 127, 246), rgb(134, 159, 243));
+    border-radius: 20px;
+}
+
+.services .services_bottom .community .community_right .community_hero img {
+    width: 100%;
+    object-fit: contain;
+    height: auto;
+}
+
+.services .services_bottom .courses {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0px 60px 10px;
+}
+
+.services .services_bottom .courses .courses_list {
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 40px;
+    width: 100%;
+    padding: 10px 10px 30px 10px;
+}
+
+.services .services_bottom .courses .courses_list img {
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.services .services_bottom .courses .courses_list button {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 20px;
+    background-color: rgb(51, 95, 244);
+    color: #fff;
+}
+
+.services .services_bottom .consulatation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.services .services_bottom .consulatation .cons_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-right: 20px;
+    height: auto;
+    padding: 10px 10px 30px 20px;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_top {
+    background-color: rgb(206, 214, 255);
+    color: rgb(48, 90, 232);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_center h3 {
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_center>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_center>div .calender {
+    display: flex;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_center>div .calender svg {
+    margin-right: 5px;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_center>div .clock {
+    display: flex;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_center>div .clock svg {
+    margin-right: 5px;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_center>div .fees {
+    display: flex;
+    margin-right: 10px;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_center>div .fees svg {
+    margin-right: 5px;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_bottom {
+    width: 100%;
+}
+
+.services .services_bottom .consulatation .cons_list .cons_bottom>button {
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    padding: 10px 0;
+    color: #fff;
+    background-color: rgb(51, 95, 244);
+}
+
+
+/* testimonial design */
+
+.testimonial {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgb(234, 239, 254);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial .test_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.testimonial .test_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0px 20px;
+    padding: 0px 50px;
+}
+
+.testimonial .test_bottom .test_bottom_list {
+    padding: 10px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px 30px;
+    border-radius: 30px;
+    background-color: #fff;
+}
+
+.testimonial .test_bottom .test_bottom_list .test_hero {
+    border-radius: 50%;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.testimonial .test_bottom .test_bottom_list .test_hero>img {
+    border-radius: 50%;
+    width: 53px;
+    height: 45px;
 }
