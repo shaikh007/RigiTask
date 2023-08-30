@@ -517,3 +517,220 @@ html {
     width: 53px;
     height: 45px;
 }
+
+
+/* media section design */
+
+.media-section {
+    width: 100%;
+    background-color: rgb(234, 239, 254);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+}
+
+.media-section .media_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.media-section .media_bottom {
+    border-radius: 50px;
+}
+
+.media-section .media_bottom img {
+    border-radius: 30px;
+    width: 1000px;
+    height: 500px;
+}
+
+
+/* demo design */
+
+.demo {
+    width: 100%;
+    height: auto;
+    background-color: rgb(234, 239, 254);
+}
+
+.demo .demo_curve {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: rgb(51, 95, 244);
+    padding: 80px 30px;
+}
+
+.demo .demo_curve .demo_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+
+.demo .demo_curve .demo_top h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.demo .demo_curve .demo_top button {
+    border: none;
+    outline: none;
+    padding: 10px 70px;
+    border-radius: 25px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    color: rgb(51, 95, 244);
+    font-weight: 600;
+}
+
+.demo .demo_curve .demo_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo .demo_curve .demo_bottom>div {
+    margin-right: 10px;
+}
+
+
+/* Contact design */
+
+.contact-us {
+    width: 100%;
+    background-color: #fff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+.contact-us .contact_top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-us .contact_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .contact_bottom .contact_details {
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us .contact_bottom .contact_details>div {
+    margin-right: 10px;
+}
+
+.contact-us .contact_bottom .contact_details .svg_file {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(51, 95, 244);
+    background-color: rgb(234, 239, 254);
+}
+
+.contact-us .contact_bottom .contact_details .svg_file svg {
+    width: 30px;
+    height: 80px;
+}
+
+.contact-us .contact_bottom .contact_details h6 {
+    color: rgb(214, 214, 214);
+}
+
+
+/* footer */
+
+.footers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(51, 95, 244);
+    color: #fff;
+    padding: 60px 20px;
+    height: auto;
+}
+
+.footers .footer_logo a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footers .footer_social_media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footers .footer_social_media>div {
+    background-color: #fff;
+    color: rgb(51, 95, 244);
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.footers .footer_social_media>div svg {
+    width: 35px;
+    height: 25px;
+}
+
+.footers .mobile_app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 30px 10px;
+}
+
+.footers .mobile_app>div {
+    margin-right: 30px;
+}
+
+.footers .footer_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footers .footer_details h6 {
+    margin: 10px 60px 10px 60px;
+}
