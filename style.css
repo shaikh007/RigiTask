@@ -463,12 +463,12 @@ html {
     font-size: 14px;
 }
 
-.services .services_bottom .active_service {
-    display: block;
+.hidden {
+    display: none;
 }
 
-.services .services_bottom .hiddens {
-    display: none;
+.visible {
+    display: block;
 }
 
 .services .services_bottom .community {
