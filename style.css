@@ -694,6 +694,9 @@ html {
         padding: 5px 9px;
         margin: 10px;
     }
+    .services .services_bottom>div {
+        width: 100%;
+    }
     .services .services_bottom .community {
         flex-wrap: wrap;
         width: 100%;
@@ -722,7 +725,8 @@ html {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        padding: 0px 30px;
+        padding: 0px 1px;
+        margin: 10px 0px 60px 3px;
     }
     .services .services_bottom .courses .courses_list {
         width: 100%;
@@ -732,7 +736,7 @@ html {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        padding: 0px 30px;
+        padding: 0px 1px;
     }
     .services .services_bottom .consulatation .cons_list {
         margin: 10px 0;
