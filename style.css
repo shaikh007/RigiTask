@@ -646,6 +646,9 @@ html {
         width: 100%;
         height: auto;
     }
+    .services .services_center>div {
+        margin-right: 6px;
+    }
     .services .services_center button {
         padding: 5px 9px;
         margin: 10px;
@@ -683,6 +686,9 @@ html {
     .services {
         width: 100%;
         height: auto;
+    }
+    .services .services_center>div {
+        margin-right: 6px;
     }
     .services .services_center button {
         padding: 5px 9px;
@@ -759,6 +765,7 @@ html {
 
 .testimonial .test_bottom {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -821,7 +828,7 @@ html {
         padding: 27px 4px;
     }
     .testimonial .test_bottom .test_bottom_list {
-        padding: 10px 113px;
+        padding: 10px 43px;
         width: 100%;
         margin: 10px 13px;
         border-radius: 16px;
@@ -1036,7 +1043,7 @@ html {
         padding-left: 20px;
     }
     .demo .demo_curve .demo_bottom .image7 {
-        width: 300px;
+        width: 259px;
         height: 150px;
     }
 }
