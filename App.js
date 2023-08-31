@@ -17,27 +17,27 @@ const courses = document.getElementById("corse");
 const consul = document.getElementById("consul");
 
 toggleBtn1.addEventListener("click", () => {
-    community.classList.remove("hidden");
-    courses.classList.add("hidden");
-    consul.classList.add("hidden");
+    community.classList.remove("hiddens");
+    courses.classList.add("hiddens");
+    consul.classList.add("hiddens");
     toggleBtn3.classList.remove("active_service");
     toggleBtn2.classList.remove("active_service");
     toggleBtn1.classList.add("active_service");
 });
 
 toggleBtn2.addEventListener("click", () => {
-    community.classList.add("hidden");
-    courses.classList.remove("hidden");
+    community.classList.add("hiddens");
+    courses.classList.remove("hiddens");
     toggleBtn1.classList.remove("active_service");
     toggleBtn2.classList.add("active_service");
     toggleBtn3.classList.remove("active_service");
-    consul.classList.add("hidden");
+    consul.classList.add("hiddens");
 });
 
 toggleBtn3.addEventListener("click", () => {
-    community.classList.add("hidden");
-    courses.classList.add("hidden");
-    consul.classList.remove("hidden");
+    community.classList.add("hiddens");
+    courses.classList.add("hiddens");
+    consul.classList.remove("hiddens");
     toggleBtn2.classList.remove("active_service");
     toggleBtn1.classList.remove("active_service");
     toggleBtn3.classList.add("active_service");
