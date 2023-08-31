@@ -6,20 +6,20 @@ menuIcon.addEventListener("click", () => {
     mobileMenu.classList.toggle("active");
 });
 
-//functionality for community courses and consultation
+//functionality for comm corse and consultation
 
 let toggleBtn = document.querySelectorAll(".toggle");
 
 toggleBtn.forEach((button, Idx) =>
     button.addEventListener("click", () => {
         if (Idx === 0) {
-            if (document.querySelector(".courses").classList.contains("active_service")) {
-                document.querySelector(".courses").classList.remove("active_service");
+            if (document.querySelector(".corse").classList.contains("active_service")) {
+                document.querySelector(".corse").classList.remove("active_service");
+                document.querySelector(".corse").classList.add("hiddens");
             }
-            if (
-                document.querySelector(".consulatation").classList.contains("active_service")
-            ) {
-                document.querySelector(".consulatation").classList.remove("active_service");
+            if (document.querySelector(".consul").classList.contains("active_service")) {
+                document.querySelector(".consul").classList.remove("active_service");
+                document.querySelector(".consul").classList.add("hiddens");
             }
             if (toggleBtn[1].classList.contains("active_service")) {
                 toggleBtn[1].classList.remove("active_service");
@@ -27,22 +27,18 @@ toggleBtn.forEach((button, Idx) =>
             if (toggleBtn[2].classList.contains("active_service")) {
                 toggleBtn[2].classList.remove("active_service");
             }
-            let element = document.getElementsByClassName("community");
+            let element = document.getElementsByClassName("comm");
             element[0].classList.add("active_service");
 
             button.classList.add("active_service");
         } else if (Idx === 1) {
-            if (
-                document.querySelector(".community").classList.contains("active_service")
-            ) {
-                document.querySelector(".community").classList.remove("active_service");
+            if (document.querySelector(".comm").classList.contains("active_service")) {
+                document.querySelector(".comm").classList.remove("active_service");
+                document.querySelector(".comm").classList.add("hiddens");
             }
-            if (
-                document
-                .querySelector(".consulatation")
-                .classList.contains("active_service")
-            ) {
-                document.querySelector(".consulatation").classList.remove("active_service");
+            if (document.querySelector(".consul").classList.contains("active_service")) {
+                document.querySelector(".consul").classList.remove("active_service");
+                document.querySelector(".consul").classList.add("hiddens");
             }
             if (toggleBtn[0].classList.contains("active_service")) {
                 toggleBtn[0].classList.remove("active_service");
@@ -50,19 +46,17 @@ toggleBtn.forEach((button, Idx) =>
             if (toggleBtn[2].classList.contains("active_service")) {
                 toggleBtn[2].classList.remove("active_service");
             }
-            let element = document.getElementsByClassName("courses");
+            let element = document.getElementsByClassName("corse");
             element[0].classList.add("active_service");
             button.classList.add("active_service");
-        } else {
-            if (
-                document.querySelector(".community").classList.contains("active_service")
-            ) {
-                document.querySelector(".community").classList.remove("active_service");
+        } else if (Idx === 2) {
+            if (document.querySelector(".comm").classList.contains("active_service")) {
+                document.querySelector(".comm").classList.remove("active_service");
+                document.querySelector(".comm").classList.add("hiddens");
             }
-            if (
-                document.querySelector(".courses").classList.contains("active_service")
-            ) {
-                document.querySelector(".courses").classList.remove("active_service");
+            if (document.querySelector(".corse").classList.contains("active_service")) {
+                document.querySelector(".corse").classList.remove("active_service");
+                document.querySelector(".corse").classList.add("hiddens");
             }
             if (toggleBtn[1].classList.contains("active_service")) {
                 toggleBtn[1].classList.remove("active_service");
@@ -71,7 +65,7 @@ toggleBtn.forEach((button, Idx) =>
                 toggleBtn[0].classList.remove("active_service");
             }
 
-            let element = document.getElementsByClassName("consultations");
+            let element = document.getElementsByClassName("consul");
             element[0].classList.add("active_service");
             button.classList.add("active_service");
         }
